@@ -7,7 +7,7 @@ body {
   padding: 0;
 
   opacity: 0;
-  animation: fadeIn 2.5s ease backwards;
+  animation: fadeIn 1.5s ease forwards;
 }
 
 @keyframes fadeIn {
