@@ -29,6 +29,15 @@ nav ul li a {
   text-decoration: none;
   color: #d6336c;
   font-weight: bold;
+
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: #f497b5;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 main {
