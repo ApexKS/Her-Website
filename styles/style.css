@@ -43,6 +43,13 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+
+  transition: transform 0.2s ease
+
+}
+  button:hover {
+  transform: scale(1.05);
+
 }
 
 .gallery img {
